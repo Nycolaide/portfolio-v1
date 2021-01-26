@@ -1,0 +1,231 @@
+@media screen and (min-width: 480px) {
+    #generated .content .msg-intro p:nth-child(3) {
+        font-size: inherit;
+    }
+}
+
+
+@media screen and (min-width: 615px) {
+
+    .content p {
+        font-size: 1.2em;
+    }
+
+    #header {
+        margin-top: -40px;
+    
+        .content {
+            text-align: right;
+            margin: 10px 5% 0;
+        }
+    }
+
+    #hero {
+        max-height: 900px;
+
+        .hero-holder {
+
+            .fig {
+
+                figure {
+                    background-image: url(/src/resources/laurent/hero_large.svg);
+                    background-position: 50% 20%;
+                }
+            }
+
+            .hero-footer {
+                left: 6%;
+
+                h6 {
+                    height: 66px;
+                    font-size: 1em;
+                }
+
+                h1 {
+                    font-size: 55px;
+                    bottom: -33px;
+
+                    white-space: none;
+                    line-height: inherit;
+                    padding: 0 30px;
+                    letter-spacing: 2px;
+                    position: absolute;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+
+    #about {
+        
+        .content {
+
+            #tabs {
+
+                .skills {
+
+                    ul {
+        
+                        li {
+                            width: 33%;
+        
+                            i {
+                                display: inline-block;
+                                width: 25px;
+                                height: auto;
+                                text-align: center;
+                                font-size: 25px;
+                                padding-top: 10px;
+                            }
+        
+                            p {
+                                margin-top: 15px;
+                                margin-left: 10px;
+                                font-size: 12px;
+                                display: inline-block;
+                                vertical-align: top;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #portfolio .content .grid .gallery-container {
+        width: 48%;
+        margin: 0 2% 2% 0;
+    }
+
+    .popup .content .btn a {
+        display: inline-block;
+    }
+
+    #resume .content .activity {
+        width: 50%;
+        vertical-align: top;
+        margin: 10px auto;
+        padding: 10px 5px;
+    }
+
+    #resume .content iframe {
+        min-height: 400px;
+    }
+}
+
+@media screen and (min-width: 1314px) {
+
+    .content {
+        margin: 40px auto 0;
+    }
+
+    #hero {
+        max-height: inherit;
+
+        .hero-holder {
+
+            .hero-footer {
+                left: inherit;
+                position: initial;
+
+                h6 {
+                    height: 80px;
+                    font-size: 1.2em;
+                }
+
+                h1 {
+                    font-size: 68px;
+                    bottom: -43px;
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+
+    #about {
+        
+        .content {
+
+            #tabs {
+
+                #school {
+
+                    .school {
+                        width: 48%;
+                        display: inline-block;
+                        vertical-align: top;
+                    }
+                }
+
+                #school,
+                #exp,
+                #skills {
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+
+                #skills {
+
+                    ul li {
+                        width: 24%;
+
+                        p {
+                            font-size: 16px; 
+                        }                  
+                    }
+                }
+
+                ul.tabs-menu li {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+
+    #portfolio .content .grid .gallery-container {
+        width: 31%;
+    }
+
+    #generated {
+
+        .content {
+            width: 500px;
+            margin: 40px auto 0;
+        }
+    }
+
+    #hero-profil {
+        width: 48%;
+        display: inline-block;
+    }
+
+    #welcome {
+
+        .bio {
+            width: 48%;
+            display: inline-block;
+            vertical-align: top;
+            margin: 70px 0 0;
+        }
+    }
+
+    #resume .content .activity {
+        width: 30%;
+        margin: 10px;
+        display: inline-block;
+    }
+
+    #resume .content iframe {
+        min-height: 550px;
+    }
+
+    #footer .footer .content .btn a {
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    #about .content #tabs .skills ul li i {
+        padding-top: 18px;
+    
+    }
+}
